@@ -1,0 +1,43 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --- IDE ---
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# --- Android / Gradle ---
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.aab
+
+# --- Firmas y secretos (NUNCA subir) ---
+*.jks
+*.keystore
+*.p12
+*.pem
+muro-key*
+*-key-base64.txt
+key.properties
+.git-credentials
+.gitconfig
+secrets.json
+.env
+.env.*
+
+# --- Sistema ---
+*.log
+.DS_Store
+Thumbs.db
